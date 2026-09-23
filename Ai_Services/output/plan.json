@@ -1,0 +1,525 @@
+{
+  "success": true,
+  "data": {
+    "university": {
+      "detected_id": "ucas_gaza",
+      "name_ar": "الكلية الجامعية للعلوم التطبيقية",
+      "name_en": "University College of Applied Sciences",
+      "college_ar": "الكلية الجامعية للعلوم التطبيقية",
+      "college_en": "University College of Applied Sciences",
+      "institution_type": "college",
+      "section_ar": ""
+    },
+    "approval": {
+      "ucas_code": "17-05",
+      "version": "",
+      "approval_date": "08/02/2026"
+    },
+    "program": {
+      "department_ar": "74 :يلكلا ددعلا 62 :صاصتخلاا تابلطتم",
+      "specialization_ar": "",
+      "degree_type": "diploma_intermediate",
+      "degree_label_ar": "دبلوم متوسط",
+      "total_credit_hours": 0,
+      "credit_hours_breakdown": {
+        "specialization": 0,
+        "college": 0,
+        "university": 0
+      }
+    },
+    "years": [
+      {
+        "year_number": 1,
+        "semesters": [
+          {
+            "semester_number": 1,
+            "name_ar": "",
+            "year_number": 1,
+            "summary": {
+              "total_credit_hours": 18,
+              "total_theory_hours": 15,
+              "total_practical_hours": 8,
+              "course_count": 9
+            },
+            "courses": [
+              {
+                "course_code": "DINF1002",
+                "course_name_ar": "مقدمة في الحوسبة (عملي)",
+                "credit_hours": {
+                  "total": 0,
+                  "theory": 0,
+                  "practical": 2
+                },
+                "course_type": "تخصص",
+                "prerequisites": [],
+                "semester_number": 1,
+                "year_number": 1
+              },
+              {
+                "course_code": "DINF1101",
+                "course_name_ar": "أخالقيات عصر المعلومات",
+                "credit_hours": {
+                  "total": 1,
+                  "theory": 1,
+                  "practical": 0
+                },
+                "course_type": "تخصص",
+                "prerequisites": [],
+                "semester_number": 1,
+                "year_number": 1
+              },
+              {
+                "course_code": "DINF1103",
+                "course_name_ar": "لغة برمجة عملي",
+                "credit_hours": {
+                  "total": 1,
+                  "theory": 0,
+                  "practical": 2
+                },
+                "course_type": "تخصص",
+                "prerequisites": [],
+                "semester_number": 1,
+                "year_number": 1
+              },
+              {
+                "course_code": "DINF1201",
+                "course_name_ar": "مقدمة في الحوسبة",
+                "credit_hours": {
+                  "total": 2,
+                  "theory": 2,
+                  "practical": 0
+                },
+                "course_type": "تخصص",
+                "prerequisites": [],
+                "semester_number": 1,
+                "year_number": 1
+              },
+              {
+                "course_code": "DINF1202",
+                "course_name_ar": "مبادئ الشبكات (عملي)",
+                "credit_hours": {
+                  "total": 2,
+                  "theory": 0,
+                  "practical": 4
+                },
+                "course_type": "جامعة",
+                "prerequisites": [],
+                "semester_number": 1,
+                "year_number": 1
+              },
+              {
+                "course_code": "DINF1302",
+                "course_name_ar": "مبادئ الشبكات",
+                "credit_hours": {
+                  "total": 3,
+                  "theory": 3,
+                  "practical": 0
+                },
+                "course_type": "تخصص",
+                "prerequisites": [],
+                "semester_number": 1,
+                "year_number": 1
+              },
+              {
+                "course_code": "DINF1303",
+                "course_name_ar": "لغة برمجة",
+                "credit_hours": {
+                  "total": 3,
+                  "theory": 3,
+                  "practical": 0
+                },
+                "course_type": "تخصص",
+                "prerequisites": [],
+                "semester_number": 1,
+                "year_number": 1
+              },
+              {
+                "course_code": "UNID1302",
+                "course_name_ar": "اللغة اإلنجليزية",
+                "credit_hours": {
+                  "total": 3,
+                  "theory": 3,
+                  "practical": 0
+                },
+                "course_type": "كلية",
+                "prerequisites": [
+                  "DIPL1020"
+                ],
+                "semester_number": 1,
+                "year_number": 1
+              },
+              {
+                "course_code": "UNID1305",
+                "course_name_ar": "اللغة العربية",
+                "credit_hours": {
+                  "total": 3,
+                  "theory": 3,
+                  "practical": 0
+                },
+                "course_type": "كلية",
+                "prerequisites": [],
+                "semester_number": 1,
+                "year_number": 1
+              }
+            ]
+          },
+          {
+            "semester_number": 2,
+            "name_ar": "",
+            "year_number": 1,
+            "summary": {
+              "total_credit_hours": 19,
+              "total_theory_hours": 14,
+              "total_practical_hours": 11,
+              "course_count": 8
+            },
+            "courses": [
+              {
+                "course_code": "DINF1113",
+                "course_name_ar": "مقدمة في قواعد البيانات (عملي)",
+                "credit_hours": {
+                  "total": 1,
+                  "theory": 0,
+                  "practical": 2
+                },
+                "course_type": "تخصص",
+                "prerequisites": [],
+                "semester_number": 2,
+                "year_number": 1
+              },
+              {
+                "course_code": "DINF1215",
+                "course_name_ar": "شبكات متقدمة (عملي)",
+                "credit_hours": {
+                  "total": 2,
+                  "theory": 0,
+                  "practical": 4
+                },
+                "course_type": "تخصص",
+                "prerequisites": [],
+                "semester_number": 2,
+                "year_number": 1
+              },
+              {
+                "course_code": "DINF1304",
+                "course_name_ar": "نظم التشغيل",
+                "credit_hours": {
+                  "total": 3,
+                  "theory": 2,
+                  "practical": 2
+                },
+                "course_type": "تخصص",
+                "prerequisites": [],
+                "semester_number": 2,
+                "year_number": 1
+              },
+              {
+                "course_code": "DINF1313",
+                "course_name_ar": "مقدمة في قواعد البيانات",
+                "credit_hours": {
+                  "total": 3,
+                  "theory": 3,
+                  "practical": 0
+                },
+                "course_type": "تخصص",
+                "prerequisites": [],
+                "semester_number": 2,
+                "year_number": 1
+              },
+              {
+                "course_code": "DINF1315",
+                "course_name_ar": "شبكات متقدمة",
+                "credit_hours": {
+                  "total": 3,
+                  "theory": 3,
+                  "practical": 0
+                },
+                "course_type": "تخصص",
+                "prerequisites": [
+                  "DINF1302"
+                ],
+                "semester_number": 2,
+                "year_number": 1
+              },
+              {
+                "course_code": "SYBS1202",
+                "course_name_ar": "الوعي المجتمعي والهندسة االجتماعية",
+                "credit_hours": {
+                  "total": 2,
+                  "theory": 2,
+                  "practical": 0
+                },
+                "course_type": "تخصص",
+                "prerequisites": [],
+                "semester_number": 2,
+                "year_number": 1
+              },
+              {
+                "course_code": "SYBS1203",
+                "course_name_ar": "إدارة وتحليل التهديدات والمخاطر",
+                "credit_hours": {
+                  "total": 2,
+                  "theory": 2,
+                  "practical": 1
+                },
+                "course_type": "تخصص",
+                "prerequisites": [],
+                "semester_number": 2,
+                "year_number": 1
+              },
+              {
+                "course_code": "SYBS1301",
+                "course_name_ar": "أمن الحاسوب الشخصي",
+                "credit_hours": {
+                  "total": 3,
+                  "theory": 2,
+                  "practical": 2
+                },
+                "course_type": "تخصص",
+                "prerequisites": [],
+                "semester_number": 2,
+                "year_number": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "year_number": 2,
+        "semesters": [
+          {
+            "semester_number": 1,
+            "name_ar": "",
+            "year_number": 2,
+            "summary": {
+              "total_credit_hours": 19,
+              "total_theory_hours": 13,
+              "total_practical_hours": 11,
+              "course_count": 7
+            },
+            "courses": [
+              {
+                "course_code": "ISSE2205",
+                "course_name_ar": "لغة إنجليزية تخصصية",
+                "credit_hours": {
+                  "total": 2,
+                  "theory": 2,
+                  "practical": 0
+                },
+                "course_type": "تخصص",
+                "prerequisites": [
+                  "UNIV1304"
+                ],
+                "semester_number": 1,
+                "year_number": 2
+              },
+              {
+                "course_code": "SYBS2205",
+                "course_name_ar": "سياسات أمن المعلومات السيبراني",
+                "credit_hours": {
+                  "total": 2,
+                  "theory": 1,
+                  "practical": 1
+                },
+                "course_type": "تخصص",
+                "prerequisites": [],
+                "semester_number": 1,
+                "year_number": 2
+              },
+              {
+                "course_code": "SYBS2301",
+                "course_name_ar": "مقدمة في تشفير البيانات وتطبيقاتها",
+                "credit_hours": {
+                  "total": 3,
+                  "theory": 2,
+                  "practical": 2
+                },
+                "course_type": "تخصص",
+                "prerequisites": [],
+                "semester_number": 1,
+                "year_number": 2
+              },
+              {
+                "course_code": "SYBS2302",
+                "course_name_ar": "أمن نظم التشغيل",
+                "credit_hours": {
+                  "total": 3,
+                  "theory": 2,
+                  "practical": 2
+                },
+                "course_type": "تخصص",
+                "prerequisites": [
+                  "COMP1303"
+                ],
+                "semester_number": 1,
+                "year_number": 2
+              },
+              {
+                "course_code": "SYBS2305",
+                "course_name_ar": "لغة برمجة بايثون",
+                "credit_hours": {
+                  "total": 3,
+                  "theory": 2,
+                  "practical": 2
+                },
+                "course_type": "تخصص",
+                "prerequisites": [],
+                "semester_number": 1,
+                "year_number": 2
+              },
+              {
+                "course_code": "SYBS2308",
+                "course_name_ar": "التحليل الجنائي الرقمي",
+                "credit_hours": {
+                  "total": 3,
+                  "theory": 2,
+                  "practical": 2
+                },
+                "course_type": "تخصص",
+                "prerequisites": [],
+                "semester_number": 1,
+                "year_number": 2
+              },
+              {
+                "course_code": "SYBS2309",
+                "course_name_ar": "تصميم وبرمجة الويب",
+                "credit_hours": {
+                  "total": 3,
+                  "theory": 2,
+                  "practical": 2
+                },
+                "course_type": "تخصص",
+                "prerequisites": [],
+                "semester_number": 1,
+                "year_number": 2
+              }
+            ]
+          },
+          {
+            "semester_number": 2,
+            "name_ar": "",
+            "year_number": 2,
+            "summary": {
+              "total_credit_hours": 18,
+              "total_theory_hours": 13,
+              "total_practical_hours": 10,
+              "course_count": 7
+            },
+            "courses": [
+              {
+                "course_code": "SYBS2202",
+                "course_name_ar": "مشروع تخرج",
+                "credit_hours": {
+                  "total": 2,
+                  "theory": 1,
+                  "practical": 2
+                },
+                "course_type": "تخصص",
+                "prerequisites": [],
+                "semester_number": 2,
+                "year_number": 2
+              },
+              {
+                "course_code": "SYBS2303",
+                "course_name_ar": "اختبار االختراقات",
+                "credit_hours": {
+                  "total": 3,
+                  "theory": 2,
+                  "practical": 2
+                },
+                "course_type": "تخصص",
+                "prerequisites": [],
+                "semester_number": 2,
+                "year_number": 2
+              },
+              {
+                "course_code": "SYBS2304",
+                "course_name_ar": "أمن الشبكات",
+                "credit_hours": {
+                  "total": 3,
+                  "theory": 2,
+                  "practical": 2
+                },
+                "course_type": "تخصص",
+                "prerequisites": [
+                  "COMP1315"
+                ],
+                "semester_number": 2,
+                "year_number": 2
+              },
+              {
+                "course_code": "SYBS2306",
+                "course_name_ar": "أمن نظم تشغيل متقدم",
+                "credit_hours": {
+                  "total": 3,
+                  "theory": 2,
+                  "practical": 2
+                },
+                "course_type": "تخصص",
+                "prerequisites": [
+                  "SYBS2302"
+                ],
+                "semester_number": 2,
+                "year_number": 2
+              },
+              {
+                "course_code": "SYBS2310",
+                "course_name_ar": "أمن الويب",
+                "credit_hours": {
+                  "total": 3,
+                  "theory": 2,
+                  "practical": 2
+                },
+                "course_type": "تخصص",
+                "prerequisites": [],
+                "semester_number": 2,
+                "year_number": 2
+              },
+              {
+                "course_code": "UNID1201",
+                "course_name_ar": "قرآن كريم",
+                "credit_hours": {
+                  "total": 2,
+                  "theory": 2,
+                  "practical": 0
+                },
+                "course_type": "كلية",
+                "prerequisites": [],
+                "semester_number": 2,
+                "year_number": 2
+              },
+              {
+                "course_code": "UNID1204",
+                "course_name_ar": "ريادة األعمال",
+                "credit_hours": {
+                  "total": 2,
+                  "theory": 2,
+                  "practical": 0
+                },
+                "course_type": "كلية",
+                "prerequisites": [],
+                "semester_number": 2,
+                "year_number": 2
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "statistics": {
+      "total_courses": 31,
+      "total_credit_hours": 74,
+      "total_theory_hours": 55,
+      "total_practical_hours": 40,
+      "years_count": 2,
+      "semesters_count": 4,
+      "specialization_course_count": 26,
+      "college_course_count": 4,
+      "university_course_count": 1
+    }
+  },
+  "errors": [],
+  "warnings": [],
+  "source_file": "plan.pdf",
+  "parsed_at": "2026-08-28T16:34:42.031204"
+}

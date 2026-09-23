@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  # ==========================================
+  # خدمة الذكاء الاصطناعي والباك إند (FastAPI)
+  # ==========================================
+  ai_backend:
+    build: ./Ai_Services
+    container_name: nextstep_ai_backend
+    ports:
+      - "8001:8000" # جعلنا بورت الجهاز 8001 يشير لبورت الدوكير 8000
+    volumes:
+      # هذا يسمح لك بتعديل كود البايثون بدون إعادة بناء الدوكير كلياً أثناء التطوير
+      - ./Ai_Services:/app 
+    environment:
+      - LOG_LEVEL=INFO
+    restart: unless-stopped
+
+  # ==========================================
+  # خدمة واجهة المستخدم (Frontend)
+  # ==========================================
+  frontend:
+    build: ./Frontend
+    container_name: nextstep_frontend
+    ports:
+      - "3000:80" # بورت 3000 على جهازك يشير لبورت 80 داخل النجنكس
+    depends_on:
+      - ai_backend
+    restart: unless-stopped
